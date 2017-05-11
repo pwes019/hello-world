@@ -6,12 +6,6 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": [
-      {
-        "title": "Blah",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
-      }
-    ]
+    "diagrams": []
   }
 }
