@@ -46,8 +46,8 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 60,
+                "y": 33
               },
               "angle": 0,
               "id": "cdeeb1c5-50e6-4f3b-9d69-215556ea2563",
@@ -95,6 +95,66 @@
               "id": "3181b33b-7743-4b31-8bb9-203e25b6376e",
               "z": 3,
               "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 223,
+                "y": 302
+              },
+              "angle": 0,
+              "id": "6503728c-8766-456c-9722-ce52110b1ea8",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "cdeeb1c5-50e6-4f3b-9d69-215556ea2563"
+              },
+              "target": {
+                "id": "6503728c-8766-456c-9722-ce52110b1ea8"
+              },
+              "vertices": [],
+              "id": "b744bc04-cc46-49d0-8547-a249a664eaaa",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
